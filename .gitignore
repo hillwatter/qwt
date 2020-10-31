@@ -1,0 +1,70 @@
+#--------------------------------
+#--- Qt/Visual C++ project
+#--------------------------------
+
+#-- Directory
+**/Debug/
+**/Release/
+**/ipch/
+
+#-- Qt generated files
+**/GeneratedFiles/
+**/Win32/
+Makefile*
+ui_*.h
+
+#-- Doxygen output html file
+**/html/
+
+#-- Final output
+*.exe
+*.manifest
+
+#-- Solution file
+*.sln
+*.user
+*.suo
+*.aps
+*.sdf
+*.opensdf
+*.vcxproj
+*.vcxproj.filters
+*.stackdump
+*.rc
+*.res
+
+
+#-- Compile/link objects
+*.obj
+*.o
+*.lastbuildstate
+*.tlog
+*.log
+*.pch
+*.pdb
+*.ncb
+*.idb
+
+*.exp
+*.dep
+*.ilk
+*.ipch
+*.manifest
+*.exe_manifest.rc
+*.dll_manifest.rc
+*.exe_manifest.res
+*.dll_manifest.res
+
+#--- tar zip rar file
+*.rar
+*.tar.gz
+*.zip
+
+#-- vim file
+*.swp
+
+#qt
+moc_*.cpp
+
+#doc
+doc/**
